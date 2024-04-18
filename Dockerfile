@@ -1,7 +1,7 @@
-FROM golang:1.20-alpine
+FROM golang:1.22-alpine
 
 ENV \
-  DAGGER_VERSION="v0.9.3"
+  DAGGER_VERSION="v0.10.2"
 
 RUN \
   apk --update add git curl ca-certificates bash tar gzip &&\
