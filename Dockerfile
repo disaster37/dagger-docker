@@ -1,4 +1,4 @@
-FROM cgr.dev/chainguard/jre:openjdk-17
+FROM chainguard/jre:openjdk-17
 
 ENV \
   DAGGER_VERSION="v0.16.1"
