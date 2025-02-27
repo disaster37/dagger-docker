@@ -4,7 +4,7 @@ ENV \
   DAGGER_VERSION="v0.16.1"
 
 RUN \
-  apk --update add git curl ca-certificates bash tar gzip openjdk-17 &&\
+  apk --update add git curl ca-certificates bash gzip openjdk-17 &&\
   rm -rf /var/cache/apk/*
 
 RUN \
