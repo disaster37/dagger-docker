@@ -13,3 +13,4 @@ RUN \
   chmod +x /usr/bin/dagger
 
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+ENV PATH="/usr/lib/jvm/java-17-openjdk/bin:$PATH"
