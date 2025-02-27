@@ -1,10 +1,10 @@
-FROM chainguard/jre:openjdk-17
+FROM chainguard/wolfi-base
 
 ENV \
   DAGGER_VERSION="v0.16.1"
 
 RUN \
-  apk --update add git curl ca-certificates bash tar gzip &&\
+  apk --update add git curl ca-certificates bash tar gzip openjdk-17 &&\
   rm -rf /var/cache/apk/*
 
 RUN \
